@@ -1,54 +1,126 @@
 import React from "react";
 import {
   Code,
-  Palette,
   Database,
   Users,
-  Zap,
-  Smartphone,
   Globe,
-  Shield,
+  Brain,
+  GitBranch,
+  Workflow,
+  BarChart3,
+  Layers,
+  Server,
+  TestTube,
+  Settings,
 } from "lucide-react";
 
-const Skils = () => {
+const Skills = () => {
   const skillCategories = [
-    {
-      icon: Palette,
-      title: "Web Design",
-      skills: [
-        "UI/UX Design",
-        "Responsive Design",
-        "User Research",
-        "Tailwind CSS",
-      ],
-      color: "from-purple-500 to-purple-600",
-    },
     {
       icon: Code,
       title: "Frontend",
       skills: [
-        "JavaScript",
-        "ReactJS",
-        "React Native",
-        "React Ionic",
-        "NextJS",
+        "JavaScript (ES6+)",
+        "React.js",
+        "Next.js",
+        "Redux",
+        "TypeScript",
+        "Material-UI",
+        "Tailwind CSS",
+        "Formik",
       ],
       color: "from-blue-500 to-blue-600",
     },
     {
       icon: Database,
-      title: "Backend",
-      skills: ["Firebase", "Vercel", "Node JS (Beginner)"],
+      title: "Backend & Database",
+      skills: [
+        "Node.js",
+        "Next.js API Routes",
+        "Prisma ORM",
+        "GraphQL",
+        "REST APIs",
+        "Firebase",
+        "Database Design",
+      ],
       color: "from-green-500 to-green-600",
+    },
+    {
+      icon: Settings,
+      title: "Build Tools & Architecture",
+      skills: [
+        "Webpack",
+        "Vite",
+        "Monorepo Architecture",
+        "Git",
+        "Electron.js",
+        "Remix",
+        "Linux",
+      ],
+      color: "from-purple-500 to-purple-600",
+    },
+    {
+      icon: Brain,
+      title: "Advanced Technologies",
+      skills: [
+        "AI Integration (Gemini AI)",
+        "WebAssembly (Rust)",
+        "React DnD",
+        "React Flow",
+        "D3.js",
+        "Slate.js",
+        "Workflow Builder Systems",
+      ],
+      color: "from-pink-500 to-pink-600",
+    },
+    {
+      icon: BarChart3,
+      title: "Data Visualization",
+      skills: [
+        "D3.js",
+        "ReCharts",
+        "Leaflet Maps",
+        "Custom Charts",
+        "Data Analysis",
+        "Interactive Dashboards",
+      ],
+      color: "from-indigo-500 to-indigo-600",
+    },
+    {
+      icon: Workflow,
+      title: "Development Tools",
+      skills: [
+        "Workflow Builder Systems",
+        "Custom Hooks",
+        "Component Libraries",
+        "Postman",
+        "Puppeteer",
+        "Testing",
+      ],
+      color: "from-cyan-500 to-cyan-600",
+    },
+    {
+      icon: Globe,
+      title: "Internationalization & Performance",
+      skills: [
+        "Lingui (i18n)",
+        "Performance Optimization",
+        "SEO",
+        "AMP",
+        "Server-Side Rendering",
+      ],
+      color: "from-teal-500 to-teal-600",
     },
     {
       icon: Users,
       title: "Soft Skills",
       skills: [
         "Effective Communication",
-        "Collaboration",
-        "Commitment",
-        "Leadership",
+        "Team Leadership",
+        "Problem Solving",
+        "Project Management",
+        "Code Review",
+        "Mentoring",
       ],
       color: "from-orange-500 to-orange-600",
     },
@@ -68,9 +140,9 @@ const Skils = () => {
             Skills<span className="text-purple-600">.</span>
           </h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto animate-fade-in-up delay-200">
-            A comprehensive toolkit of technical expertise and soft skills that
-            enable me to deliver exceptional digital solutions across various
-            platforms and technologies.
+            A comprehensive toolkit spanning frontend excellence, AI
+            integration, modern architectures, and cutting-edge technologies
+            that enable me to build scalable, innovative digital solutions.
           </p>
         </div>
 
@@ -120,69 +192,131 @@ const Skils = () => {
           ))}
         </div>
 
-        {/* Additional Skills Section */}
+        {/* Specialized Skills Section */}
         <div className="mt-16 animate-fade-in-up delay-700">
           <div className="bg-gradient-to-r from-purple-50 to-gray-50 rounded-2xl p-8 lg:p-12 border border-purple-100">
             <div className="text-center mb-8">
               <h3 className="text-2xl lg:text-3xl font-bold text-gray-800 mb-4">
-                Additional Expertise
+                Specialized Expertise
               </h3>
               <p className="text-gray-600 text-lg">
-                Beyond core skills, I bring specialized knowledge in modern
-                development practices
+                Advanced technical capabilities and modern development practices
               </p>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-              <div className="flex items-center gap-4 p-4 bg-white rounded-xl shadow-sm border border-gray-100 group hover:shadow-md transition-all duration-300">
-                <div className="p-3 bg-purple-100 rounded-lg group-hover:bg-purple-200 transition-colors duration-200">
-                  <Smartphone className="w-6 h-6 text-purple-600" />
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+              <div className="flex items-center gap-4 p-6 bg-white rounded-xl shadow-sm border border-gray-100 group hover:shadow-md transition-all duration-300">
+                <div className="p-3 bg-pink-100 rounded-lg group-hover:bg-pink-200 transition-colors duration-200">
+                  <Brain className="w-6 h-6 text-pink-600" />
                 </div>
                 <div>
                   <h4 className="font-semibold text-gray-800">
-                    Mobile Development
+                    AI Integration
                   </h4>
                   <p className="text-sm text-gray-600">
-                    Cross-platform solutions
+                    Gemini AI & ML Solutions
                   </p>
                 </div>
               </div>
 
-              <div className="flex items-center gap-4 p-4 bg-white rounded-xl shadow-sm border border-gray-100 group hover:shadow-md transition-all duration-300">
-                <div className="p-3 bg-blue-100 rounded-lg group-hover:bg-blue-200 transition-colors duration-200">
-                  <Globe className="w-6 h-6 text-blue-600" />
+              <div className="flex items-center gap-4 p-6 bg-white rounded-xl shadow-sm border border-gray-100 group hover:shadow-md transition-all duration-300">
+                <div className="p-3 bg-indigo-100 rounded-lg group-hover:bg-indigo-200 transition-colors duration-200">
+                  <Layers className="w-6 h-6 text-indigo-600" />
                 </div>
                 <div>
-                  <h4 className="font-semibold text-gray-800">
-                    Web Performance
-                  </h4>
-                  <p className="text-sm text-gray-600">Optimization & SEO</p>
+                  <h4 className="font-semibold text-gray-800">WebAssembly</h4>
+                  <p className="text-sm text-gray-600">
+                    High-performance with Rust
+                  </p>
                 </div>
               </div>
 
-              <div className="flex items-center gap-4 p-4 bg-white rounded-xl shadow-sm border border-gray-100 group hover:shadow-md transition-all duration-300">
+              <div className="flex items-center gap-4 p-6 bg-white rounded-xl shadow-sm border border-gray-100 group hover:shadow-md transition-all duration-300">
+                <div className="p-3 bg-cyan-100 rounded-lg group-hover:bg-cyan-200 transition-colors duration-200">
+                  <GitBranch className="w-6 h-6 text-cyan-600" />
+                </div>
+                <div>
+                  <h4 className="font-semibold text-gray-800">
+                    Monorepo Architecture
+                  </h4>
+                  <p className="text-sm text-gray-600">
+                    Scalable project structure
+                  </p>
+                </div>
+              </div>
+
+              <div className="flex items-center gap-4 p-6 bg-white rounded-xl shadow-sm border border-gray-100 group hover:shadow-md transition-all duration-300">
                 <div className="p-3 bg-green-100 rounded-lg group-hover:bg-green-200 transition-colors duration-200">
-                  <Zap className="w-6 h-6 text-green-600" />
+                  <Workflow className="w-6 h-6 text-green-600" />
                 </div>
                 <div>
                   <h4 className="font-semibold text-gray-800">
-                    Rapid Development
+                    Workflow Builder
                   </h4>
-                  <p className="text-sm text-gray-600">Quick prototyping</p>
+                  <p className="text-sm text-gray-600">
+                    Visual workflow design systems
+                  </p>
                 </div>
               </div>
 
-              <div className="flex items-center gap-4 p-4 bg-white rounded-xl shadow-sm border border-gray-100 group hover:shadow-md transition-all duration-300">
-                <div className="p-3 bg-orange-100 rounded-lg group-hover:bg-orange-200 transition-colors duration-200">
-                  <Shield className="w-6 h-6 text-orange-600" />
+              <div className="flex items-center gap-4 p-6 bg-white rounded-xl shadow-sm border border-gray-100 group hover:shadow-md transition-all duration-300">
+                <div className="p-3 bg-blue-100 rounded-lg group-hover:bg-blue-200 transition-colors duration-200">
+                  <Server className="w-6 h-6 text-blue-600" />
                 </div>
                 <div>
                   <h4 className="font-semibold text-gray-800">
-                    Security Best Practices
+                    API Development
                   </h4>
-                  <p className="text-sm text-gray-600">Safe & secure code</p>
+                  <p className="text-sm text-gray-600">
+                    Next.js & Node.js APIs
+                  </p>
                 </div>
               </div>
+
+              <div className="flex items-center gap-4 p-6 bg-white rounded-xl shadow-sm border border-gray-100 group hover:shadow-md transition-all duration-300">
+                <div className="p-3 bg-purple-100 rounded-lg group-hover:bg-purple-200 transition-colors duration-200">
+                  <TestTube className="w-6 h-6 text-purple-600" />
+                </div>
+                <div>
+                  <h4 className="font-semibold text-gray-800">
+                    Testing & Automation
+                  </h4>
+                  <p className="text-sm text-gray-600">Postman & Puppeteer</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Hardware Integration Section */}
+        <div className="mt-12 animate-fade-in-up delay-900">
+          <div className="bg-gradient-to-r from-gray-50 to-blue-50 rounded-2xl p-8 border border-blue-100">
+            <div className="text-center mb-6">
+              <h3 className="text-xl lg:text-2xl font-bold text-gray-800 mb-3">
+                Hardware-Software Integration
+              </h3>
+              <p className="text-gray-600">
+                Experience with hardware communication and industrial systems
+              </p>
+            </div>
+
+            <div className="flex flex-wrap justify-center gap-4">
+              {[
+                "Barcode Scanner Integration",
+                "PLC Communication",
+                "USB Device Integration",
+                "Touch Interface Development",
+                "Industrial IoT Systems",
+                "Real-time Data Processing",
+              ].map((skill, index) => (
+                <span
+                  key={skill}
+                  className="bg-white text-gray-700 px-4 py-2 rounded-full text-sm font-medium border border-gray-200 hover:bg-blue-50 hover:text-blue-700 hover:border-blue-200 transition-all duration-200"
+                  style={{ animationDelay: `${1000 + index * 100}ms` }}
+                >
+                  {skill}
+                </span>
+              ))}
             </div>
           </div>
         </div>
@@ -191,4 +325,4 @@ const Skils = () => {
   );
 };
 
-export default Skils;
+export default Skills;

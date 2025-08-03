@@ -6,49 +6,68 @@ import {
   Rocket,
   Heart,
   Star,
+  Code,
+  Globe,
+  Award,
 } from "lucide-react";
 
 const MyStory = () => {
   const storyTimeline = [
     {
-      year: "2020",
-      title: "Starting the Journey",
+      year: "2015-2018",
+      title: "Foundation Years",
       description:
-        "Entered the tech world with a passion for web design and development, mastering foundational skills in HTML, CSS, JavaScript, and React.js.",
+        "Started my journey at Uttarakhand Technical University pursuing Bachelor of Computer Application. Discovered my passion for programming and began exploring web technologies, laying the groundwork for my future career.",
       icon: BookOpen,
-      color: "from-purple-500 to-purple-600",
-    },
-    {
-      year: "2021",
-      title: "Learning Through Practice",
-      description:
-        "Completed formal training and built multiple projects to solidify expertise, turning ideas into functional applications.",
-      icon: GraduationCap,
       color: "from-blue-500 to-blue-600",
     },
     {
-      year: "2022",
-      title: "Professional Growth",
+      year: "2018-2020",
+      title: "Advanced Learning",
       description:
-        "Secured an internship, transitioning to a junior developer role within six months. Learned advanced tools like Next.js and Ionic while contributing to complex production projects.",
-      icon: Briefcase,
+        "Pursued Master of Computer Application at Doon University. Deepened my understanding of software engineering principles, data structures, and modern development practices while working on academic projects.",
+      icon: GraduationCap,
       color: "from-green-500 to-green-600",
     },
     {
-      year: "2023",
-      title: "Advancing to Senior Developer",
+      year: "2019-2020",
+      title: "First Industry Experience",
       description:
-        "Leveraged skills and experience to lead development efforts, optimize performance, and mentor new talent as a senior developer.",
-      icon: Rocket,
+        "Started as a Software Engineer Intern at Acroknacks in Dehradun. Developed board-based projects using Electron.js and React.js, worked with PLC communication, and built touch interfaces for industrial systems.",
+      icon: Code,
+      color: "from-purple-500 to-purple-600",
+    },
+    {
+      year: "2020-2021",
+      title: "Professional Debut",
+      description:
+        "Joined Tutree Inc. as a React.js Developer in Noida. Built high-performance web applications, developed AMP projects with GO GIN, and implemented server-side rendering solutions using Node.js and Express.",
+      icon: Briefcase,
       color: "from-orange-500 to-orange-600",
     },
     {
-      year: "2024",
-      title: "Expanding Horizons",
+      year: "2021-2022",
+      title: "Technical Growth",
       description:
-        "Pursuing freelancing alongside my full-time role to help clients bring creative ideas to life, focusing on innovative and efficient web solutions.",
-      icon: Star,
+        "Advanced to Senior Associate Technology at Zapbuild in Mohali. Mastered GraphQL and Redux for optimal data management, created data visualizations with D3 and ReCharts, and integrated third-party APIs like Shopify.",
+      icon: Rocket,
       color: "from-pink-500 to-pink-600",
+    },
+    {
+      year: "2022-2024",
+      title: "International Expansion",
+      description:
+        "Became Front-End Engineer at Pericius Technology/Tecnotree-Flex, working remotely from Bangalore and on-site in Kuwait. Led Webpack-to-Vite migration, revolutionized app localization with Lingui, and integrated hardware systems.",
+      icon: Globe,
+      color: "from-indigo-500 to-indigo-600",
+    },
+    {
+      year: "2024-Present",
+      title: "Senior Engineering Role",
+      description:
+        "Currently serving as Sr. Front-End Engineer at GEDU Services in Noida. Architecting advanced UI systems with Material-UI, building rich text editors with Slate.js, and developing enterprise-grade component libraries.",
+      icon: Award,
+      color: "from-teal-500 to-teal-600",
     },
   ];
 
@@ -63,12 +82,12 @@ const MyStory = () => {
         {/* Section Header */}
         <div className="text-center mb-16">
           <h1 className="text-4xl lg:text-6xl font-bold text-gray-800 mb-6 animate-fade-in-up">
-            My Story<span className="text-purple-600">.</span>
+            My Journey<span className="text-purple-600">.</span>
           </h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto animate-fade-in-up delay-200">
-            A journey of passion, learning, and growth in the world of frontend
-            development, from humble beginnings to creating impactful digital
-            solutions.
+            From computer science student in Uttarakhand to Senior Frontend
+            Engineer - a journey of continuous learning, growth, and building
+            impactful digital solutions across industries and continents.
           </p>
         </div>
 
@@ -89,19 +108,19 @@ const MyStory = () => {
                   className={`flex-1 ${
                     index % 2 === 0
                       ? "lg:pr-8 lg:text-right"
-                      : "lg:pl-8 lg:text-left"
+                      : "lg:pl-8 lg:text-left lg:order-3"
                   }`}
                 >
-                  <div className="bg-white rounded-2xl shadow-lg border border-gray-100 p-6 lg:p-8 hover:shadow-xl transition-all duration-500 transform hover:-translate-y-1">
+                  <div className="bg-white rounded-2xl shadow-lg border border-gray-100 p-6 lg:p-8 hover:shadow-xl transition-all duration-500 transform hover:-translate-y-1 group">
                     {/* Year Badge */}
                     <div
-                      className={`inline-block bg-gradient-to-r ${item.color} text-white px-4 py-2 rounded-full text-sm font-bold mb-4`}
+                      className={`inline-block bg-gradient-to-r ${item.color} text-white px-4 py-2 rounded-full text-sm font-bold mb-4 group-hover:scale-105 transition-transform duration-300`}
                     >
                       {item.year}
                     </div>
 
                     {/* Title */}
-                    <h3 className="text-xl lg:text-2xl font-bold text-gray-800 mb-3">
+                    <h3 className="text-xl lg:text-2xl font-bold text-gray-800 mb-3 group-hover:text-purple-700 transition-colors duration-300">
                       {item.title}
                     </h3>
 
@@ -113,40 +132,106 @@ const MyStory = () => {
                 </div>
 
                 {/* Timeline Icon */}
-                <div className="relative z-10 flex-shrink-0">
+                <div className="relative z-10 flex-shrink-0 lg:order-2">
                   <div
-                    className={`w-16 h-16 bg-gradient-to-r ${item.color} rounded-full flex items-center justify-center shadow-lg border-4 border-white group-hover:scale-110 transition-transform duration-300`}
+                    className={`w-16 h-16 bg-gradient-to-r ${item.color} rounded-full flex items-center justify-center shadow-lg border-4 border-white hover:scale-110 transition-transform duration-300 cursor-pointer`}
                   >
                     <item.icon className="w-8 h-8 text-white" />
                   </div>
                 </div>
 
                 {/* Empty space for alternating layout */}
-                <div className="flex-1 lg:block hidden"></div>
+                <div
+                  className={`flex-1 lg:block hidden ${
+                    index % 2 === 0 ? "lg:order-3" : "lg:order-1"
+                  }`}
+                ></div>
               </div>
             ))}
           </div>
         </div>
 
-        {/* Call to Action */}
-        <div className="mt-16 text-center animate-fade-in-up delay-1000">
+        {/* Achievements Section */}
+        <div className="mt-16 animate-fade-in-up delay-1000">
           <div className="bg-gradient-to-r from-purple-50 to-gray-50 rounded-2xl p-8 lg:p-12 border border-purple-100">
-            <div className="flex items-center justify-center gap-3 mb-6">
-              <Heart className="w-8 h-8 text-purple-600 animate-pulse" />
-              <h3 className="text-2xl lg:text-3xl font-bold text-gray-800">
-                Passion for Innovation
-              </h3>
+            <div className="text-center mb-8">
+              <div className="flex items-center justify-center gap-3 mb-6">
+                <Heart className="w-8 h-8 text-purple-600 animate-pulse" />
+                <h3 className="text-2xl lg:text-3xl font-bold text-gray-800">
+                  The Journey Continues
+                </h3>
+              </div>
+              <p className="text-gray-600 text-lg mb-8 max-w-2xl mx-auto">
+                From building industrial PLC interfaces in Dehradun to
+                architecting enterprise applications for international clients -
+                every step has been a learning opportunity that shaped my
+                expertise in modern web technologies.
+              </p>
             </div>
-            <p className="text-gray-600 text-lg mb-8 max-w-2xl mx-auto">
-              Every project is an opportunity to learn, grow, and create
-              something amazing.
-              {` I'm`} excited to continue this journey and help bring your
-              ideas to life.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <div className="flex items-center gap-2 text-purple-600 font-semibold">
+
+            {/* Key Achievements Grid */}
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+              <div className="text-center p-6 bg-white rounded-xl shadow-sm border border-gray-100">
+                <div className="text-3xl font-bold text-purple-600 mb-2">
+                  4+
+                </div>
+                <div className="text-gray-700 font-medium">
+                  Years Experience
+                </div>
+              </div>
+              <div className="text-center p-6 bg-white rounded-xl shadow-sm border border-gray-100">
+                <div className="text-3xl font-bold text-green-600 mb-2">
+                  50+
+                </div>
+                <div className="text-gray-700 font-medium">
+                  Projects Delivered
+                </div>
+              </div>
+              <div className="text-center p-6 bg-white rounded-xl shadow-sm border border-gray-100">
+                <div className="text-3xl font-bold text-blue-600 mb-2">7+</div>
+                <div className="text-gray-700 font-medium">
+                  Technologies Mastered
+                </div>
+              </div>
+            </div>
+
+            <div className="text-center">
+              <div className="flex items-center justify-center gap-2 text-purple-600 font-semibold">
                 <Star className="w-5 h-5" />
-                <span>Ready to create something amazing together?</span>
+                <span>Ready to build the next chapter together?</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Current Focus */}
+        <div className="mt-12 animate-fade-in-up delay-1200">
+          <div className="bg-gradient-to-r from-gray-900 to-purple-900 rounded-2xl p-8 lg:p-12 text-white">
+            <div className="text-center">
+              <h3 className="text-2xl lg:text-3xl font-bold mb-4">
+                Current Focus: Innovation & Excellence
+              </h3>
+              <p className="text-gray-300 text-lg max-w-2xl mx-auto mb-6">
+                Today, {"I'm"} passionate about AI integration, workflow
+                builders, and creating scalable component libraries that empower
+                teams to build faster and better. My goal is to bridge the gap
+                between complex technical requirements and intuitive user
+                experiences.
+              </p>
+              <div className="flex flex-wrap justify-center gap-3">
+                {[
+                  "AI Integration",
+                  "Workflow Builders",
+                  "Component Libraries",
+                  "Enterprise Solutions",
+                ].map((tech) => (
+                  <span
+                    key={tech}
+                    className="bg-white/20 text-white px-4 py-2 rounded-full text-sm font-medium"
+                  >
+                    {tech}
+                  </span>
+                ))}
               </div>
             </div>
           </div>

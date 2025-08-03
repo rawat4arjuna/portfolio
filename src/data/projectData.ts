@@ -7,91 +7,205 @@ import basilWholesale from "../../public/assets/projects/basilMerchant.png";
 
 export const projectData = [
   {
-    image: luxCartApp,
-    title: "LuxCart",
+    image: scrapyT, // You can replace with actual Duvall project image
+    title: "Duvall IoT Coffee Machine",
     description:
-      "A high-performance e-commerce mobile application built using React Native and Expo. Designed with modern UI/UX for seamless shopping experience, integrated with secure payment gateway, real-time product updates, and push notifications.",
+      "An IoT-based smart coffee machine project built during my internship at Acroknacks. Developed using Electron.js and React.js with hardware communication capabilities for PLC integration. Implemented touch keyboard interfaces, real-time data parsing and graphing, and seamless USB-to-database data exchange using bash scripts. This project showcased my early expertise in hardware-software integration.",
     technologies: [
-      "React Native",
-      "Expo",
-      "Firebase",
-      "Stripe",
-      "Tailwind CSS",
-    ],
-    liveUrl:
-      "https://github.com/Arjunnakum07/React-Native-Ecommerce-App?tab=readme-ov-file#luxecart---react-native-e-commerce-app",
-    githubUrl: "https://github.com/Arjunnakum07/React-Native-Ecommerce-App",
-    status: "Completed",
-  },
-  {
-    image: Netowrked,
-    title: "Networked AI",
-    description:
-      "An AI-powered platform designed to simplify event hosting, management, and networking for both organizers and attendees. Features built-in ticketing and payment processing, personalized event discovery, digital business card exchange, and real‑time updates across web and mobile.",
-    technologies: [
-      "React Iconic",
-      "TypeScript",
-      "Tailwind CSS",
-      "Firebase",
-      "Stripe",
-      "Apple Pay",
-    ],
-    liveUrl: "https://app.net-worked.ai/",
-    githubUrl:
-      "https://apps.apple.com/us/app/networked-ai-invites/id6471849642",
-    status: "Completed",
-  },
-  {
-    image: waveBible,
-    title: "Waves: Bible Verse",
-    description:
-      "A spiritual growth companion that delivers personalized, curated Bible verses and real‑time support directly to your home and lock screens. Equipped with an AI‑powered chatbot that answers questions, explains scripture, and recommends devotionals tailored to your life journey.",
-    technologies: [
-      "React Navite",
-      "TypeScript",
-      "Widgets",
-      "Firebase",
-      "Open AI",
-      "in App Purchase",
-    ],
-    liveUrl: "https://wavesbibleapp.com/",
-    githubUrl: "https://apps.apple.com/us/app/waves-bible-verse/id6742439914",
-    status: "Completed",
-  },
-  {
-    image: speedApp,
-    title: "BB Patrol Speed Black Box",
-    description:
-      "A powerful vehicle monitoring app that tracks real-time speed, analyzes driver behavior, and provides detailed report categorization. Users can record and upload voice notes, capture on-road incidents via camera, and access location-based analytics to improve safety and performance.",
-    technologies: [
-      "React Navite",
-      "GPS tracker",
-      "floating window",
-      "voice service",
-      "line login",
+      "Electron.js",
+      "React.js", 
+      "PLC Communication",
+      "IoT Integration",
+      "Hardware APIs",
+      "Bash Scripts",
+      "Touch Interface",
     ],
     liveUrl: "#",
     githubUrl: "#",
     status: "Completed",
+    category: "IoT & Hardware",
+    highlights: [
+      "Real-time Hardware Communication",
+      "PLC Data Processing", 
+      "Touch Interface Development",
+      "IoT System Architecture"
+    ]
   },
   {
-    image: scrapyT,
-    title: "ScrapyT",
+    image: waveBible, // You can replace with Tutree project image
+    title: "Tutree Educational Platform",
     description:
-      "A full-stack web scraping and data extraction tool for developers and data analysts. Supports dynamic site crawling, data transformation, and export to multiple formats.",
-    technologies: ["React", "Node.js", "Python", "MongoDB", "Express"],
+      "A comprehensive educational platform developed during my time as React.js Developer at Tutree Inc. Built high-performance web applications with React.js, Redux, and Material UI. Developed an AMP project integrated with GO GIN that significantly boosted mobile traffic. Implemented server-side rendered website using Node.js, Express, and EJS for enhanced SEO and user engagement.",
+    technologies: [
+      "React.js",
+      "Redux", 
+      "Material UI",
+      "AMP",
+      "GO GIN",
+      "Node.js",
+      "Express.js",
+      "EJS",
+      "SSR",
+    ],
     liveUrl: "#",
     githubUrl: "#",
     status: "Completed",
+    category: "Educational Platform",
+    highlights: [
+      "High-Performance Web Application",
+      "Mobile Traffic Optimization",
+      "Server-Side Rendering",
+      "SEO Enhancement"
+    ]
   },
   {
     image: basilWholesale,
-    title: "Wholesale Payment",
+    title: "DSIM - Digital Stock Inventory Management",
     description:
-      "A scalable payment and inventory solution tailored for wholesalers. Features include bulk order handling, automated invoicing, and real-time financial insights.",
-    technologies: ["React", "Next.js", "Stripe", "PostgreSQL", "TypeScript"],
+      "A comprehensive location-based warehouse system developed during my tenure at Pericius Technology/Tecnotree-Flex. Streamlined creation, requisition, and stock transfers with advanced inventory ticketing and barcode-scanned uploads. Innovated SIM starter kit workflows and enabled seamless multi-warehouse sales reporting. Applied my hardware integration expertise with barcode scanners and real-time data processing.",
+    technologies: [
+      "React.js",
+      "Redux",
+      "REST APIs",
+      "Barcode Integration", 
+      "Hardware Communication",
+      "Real-time Updates",
+      "Inventory Management",
+      "Multi-warehouse Systems",
+    ],
     liveUrl: "#",
     githubUrl: "#",
     status: "Completed",
+    category: "Enterprise System",
+    highlights: [
+      "Barcode Scanner Integration",
+      "Multi-warehouse Management", 
+      "Real-time Inventory Tracking",
+      "SIM Starter Kit Innovation"
+    ]
   },
+  {
+    image: speedApp, // You can replace with UI Kit image
+    title: "TT-UIKit Component Library (NPM Package)",
+    description:
+      "A sophisticated Vite-powered component library housing intricate, reusable components for universal use across all products. Published as an NPM package to significantly accelerate development speed and foster efficient development environments. Implemented monorepo architecture with TypeScript for type safety and utilized modern build tools for optimal performance.",
+    technologies: [
+      "Vite",
+      "React.js",
+      "TypeScript", 
+      "NPM Package",
+      "Monorepo Architecture",
+      "Storybook",
+      "Component Design System",
+      "Build Optimization",
+    ],
+    liveUrl: "#",
+    githubUrl: "#",
+    status: "Completed", 
+    category: "Component Library",
+    highlights: [
+      "NPM Package Publication",
+      "Reusable Component Architecture",
+      "Monorepo Implementation", 
+      "Developer Experience Optimization"
+    ]
+  },
+  {
+    image: luxCartApp,
+    title: "DSM - Dynamic System Management Platform",
+    description:
+      "A cutting-edge no-code platform currently being developed at GEDU Services, enabling users to create forms, dashboards, reports, and menus with real-time data views. Features customizable email templates, multi-level permissions, and comprehensive user management. Built using my expertise in workflow builders, Slate.js rich text editing, and advanced UI systems with Material-UI. Offers enterprise-level flexibility similar to tools like Thesis.",
+    technologies: [
+      "React.js",
+      "Next.js",
+      "Material-UI",
+      "Slate.js",
+      "Workflow Builder",
+      "Dynamic Forms (Formik)",
+      "TypeScript",
+      "No-Code Platform",
+      "Real-time Data",
+    ],
+    liveUrl: "#", 
+    githubUrl: "#",
+    status: "In Progress",
+    category: "No-Code Platform",
+    highlights: [
+      "No-Code Platform Development",
+      "Dynamic Workflow Builder",
+      "Rich Text Editor Integration",
+      "Enterprise-Grade Architecture"
+    ]
+  },
+  {
+    image: Netowrked,
+    title: "Advanced Calendar System",
+    description:
+      "A sophisticated multi-range calendar system with color-coded intervals and shaded week-offs, developed as part of my current work at GEDU Services. Improved visual planning for enterprise scheduling applications using React.js and Material-UI. Implemented advanced form-level logic with custom input components and conditional field rendering.",
+    technologies: [
+      "React.js",
+      "Material-UI",
+      "Calendar APIs",
+      "Custom Hooks", 
+      "Advanced State Management",
+      "Visual Planning Tools",
+    ],
+    liveUrl: "#",
+    githubUrl: "#", 
+    status: "Completed",
+    category: "Enterprise UI",
+    highlights: [
+      "Multi-range Calendar Implementation",
+      "Color-coded Visual System",
+      "Advanced Scheduling Logic",
+      "Enterprise Integration"
+    ]
+  }
+];
+
+// Additional metadata
+export const projectCategories = [
+  "All Projects",
+  "IoT & Hardware",
+  "Educational Platform", 
+  "Enterprise System",
+  "Component Library",
+  "No-Code Platform",
+  "Enterprise UI"
+];
+
+export const projectStats = {
+  totalProjects: projectData.length,
+  completedProjects: projectData.filter(p => p.status === "Completed").length,
+  inProgressProjects: projectData.filter(p => p.status === "In Progress").length,
+  technologies: [...new Set(projectData.flatMap(p => p.technologies))].length
+};
+
+// Project timeline based on your career progression
+export const projectTimeline = [
+  { 
+    period: "2019-2020", 
+    project: "Duvall IoT Coffee Machine",
+    company: "Acroknacks (Internship)" 
+  },
+  { 
+    period: "2020-2021", 
+    project: "Tutree Educational Platform", 
+    company: "Tutree Inc." 
+  },
+  { 
+    period: "2022-2024", 
+    project: "DSIM Inventory Management", 
+    company: "Pericius Technology" 
+  },
+  { 
+    period: "2023-2024", 
+    project: "TT-UIKit Component Library",
+    company: "Pericius Technology" 
+  },
+  { 
+    period: "2024-Present", 
+    project: "DSM Platform & Calendar System", 
+    company: "GEDU Services" 
+  }
 ];
