@@ -96,7 +96,7 @@ const Contact = () => {
               <div className="space-y-4 animate-fade-in-up delay-700">
                 {/* Email */}
                 <Link
-                  href="mailto:Arjunnakum07@gmail.com"
+                  href="mailto:Arjunarawatyt@gmail.com"
                   className="group flex items-center gap-4 p-4 bg-white rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition-all duration-300 hover:border-purple-200"
                 >
                   <div className="p-3 bg-purple-100 rounded-lg group-hover:bg-purple-200 transition-colors duration-200">
@@ -105,7 +105,7 @@ const Contact = () => {
                   <div className="text-left">
                     <p className="text-sm text-gray-500 font-medium">Email</p>
                     <p className="text-gray-800 font-semibold">
-                      Arjunnakum07@gmail.com
+                      Arjunarawatyt@gmail.com
                     </p>
                   </div>
                 </Link>
@@ -194,14 +194,14 @@ const Contact = () => {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link
-                href="mailto:Arjunnakum07@gmail.com"
+                href="mailto:Arjunarawatyt@gmail.com"
                 className="group px-8 py-4 bg-purple-600 text-white rounded-xl hover:bg-purple-700 font-semibold transition-all duration-300 transform hover:scale-105 hover:shadow-lg flex items-center justify-center gap-2"
               >
                 <Send className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-200" />
                 Send Message
               </Link>
               <Link
-                href="https://Arjunnakum-portfolio.vercel.app/ArjunResume.pdf"
+                href="https://rawat4arjuna.github.io/portfolio/ArjunResume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group px-8 py-4 bg-transparent border-2 border-purple-600 text-purple-600 rounded-xl hover:bg-purple-600 hover:text-white font-semibold transition-all duration-300 transform hover:scale-105 flex items-center gap-2"

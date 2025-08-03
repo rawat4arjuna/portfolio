@@ -4,7 +4,7 @@ A modern, responsive portfolio website built with Next.js, TypeScript, and Tailw
 
 ## 🚀 Live Demo
 
-[View Portfolio](https://arjunnakum-portfolio.vercel.app)
+[View Portfolio](https://rawat4arjuna.github.io/portfolio/)
 
 ## 🛠️ Tech Stack
 
@@ -278,11 +278,11 @@ NEXT_PUBLIC_SITE_URL=http://localhost:3000
 This project is open source and available under the [MIT License](LICENSE).
 
 ## 📞 Contact
-- **Email:** arjunnakum07@gmail.com
-- **LinkedIn:** [Arjun Nakum](https://linkedin.com/in/arjun-nakum-178777250)
-- **GitHub:** [arjunnakum07](https://github.com/arjunnakum07)
-- **Instagram:** [@mr_arjun_nakum](https://instagram.com/mr_arjun_nakum)
+- **Email:** Arjunarawatyt@gmail.com
+- **LinkedIn:** [Arjun Singh Rawat](https://www.linkedin.com/in/arjuna-rawat-814979198)
+- **GitHub:** [Rawat4arjuna](https://github.com/Rawat4arjuna)
+- **Instagram:** [@Arjuna Rawat](https://instagram.com/un_finished_sentenc)
 
 ---
 
-**Made with 💜 by Arjun Nakum**
+**Made with 💜 by Arjun Singh Rawat**

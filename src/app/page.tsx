@@ -117,7 +117,7 @@ const Home = () => {
                 </Link>
 
                 <Link
-                  href="https://Arjunnakum-portfolio.vercel.app/ArjunResume.pdf"
+                  href="https://rawat4arjuna.github.io/portfolio/ArjunResume.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="group px-8 py-4 bg-transparent border-2 border-gray-300 text-gray-700 rounded-xl hover:border-purple-600 hover:text-purple-600 font-semibold transition-all duration-300 transform  flex items-center gap-2"
