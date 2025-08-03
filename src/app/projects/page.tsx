@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   title:
     "Projects | Arjun Singh Rawat - Sr. Frontend Engineer & React.js Expert",
   description:
-    "Explore enterprise-grade projects by Arjun Singh Rawat, Senior Frontend Engineer specializing in React.js, Next.js, AI integration, workflow builders, and scalable component libraries. 4+ years of delivering high-performance web solutions.",
+    "Explore enterprise-grade projects by Arjun Singh Rawat, Senior Frontend Engineer specializing in React.js, Next.js, AI integration, workflow builders, and scalable component libraries. 5+ years of delivering high-performance web solutions.",
   keywords: [
     "Senior Frontend Engineer Projects",
     "Enterprise React.js Applications",
@@ -37,13 +37,13 @@ export const metadata: Metadata = {
     images: "https://i.ibb.co/C5QRJzQF/image.png",
     title: "Projects | Arjun Singh Rawat - Sr. Frontend Engineer",
     description:
-      "Enterprise-grade projects showcasing 4+ years of expertise in React.js, AI integration, workflow builders, and scalable web applications.",
+      "Enterprise-grade projects showcasing 5+ years of expertise in React.js, AI integration, workflow builders, and scalable web applications.",
   },
   twitter: {
     images: "https://i.ibb.co/C5QRJzQF/image.png",
     title: "Projects | Arjun Singh Rawat - Sr. Frontend Engineer",
     description:
-      "Enterprise-grade projects showcasing 4+ years of expertise in React.js, AI integration, workflow builders, and scalable web applications.",
+      "Enterprise-grade projects showcasing 5+ years of expertise in React.js, AI integration, workflow builders, and scalable web applications.",
   },
   viewport: "width=device-width, initial-scale=1.0",
   themeColor: "#7c3aed",
@@ -77,7 +77,7 @@ const Projects = () => {
           <div className="max-w-100">
             <p className="text-gray-800 text-xl lg:text-2xl px-2 border-l-4 lg:border-l-8 border-purple-600 mb-8">
               Building Scalable, AI-Integrated, and Hardware-Connected
-              Applications with 4+ Years of Enterprise Development Expertise
+              Applications with 5+ Years of Enterprise Development Expertise
             </p>
 
             {/* Professional Journey Highlights */}
@@ -149,7 +149,7 @@ const Projects = () => {
                     Experience
                   </h3>
                 </div>
-                <p className="text-3xl font-bold text-purple-600">4+</p>
+                <p className="text-3xl font-bold text-purple-600">5+</p>
                 <p className="text-sm text-gray-600 mt-1">Years Professional</p>
               </div>
 
@@ -219,7 +219,7 @@ const Projects = () => {
 
             <div className="space-y-4 leading-relaxed">
               <p className="text-lg text-gray-200">
-                As a Senior Frontend Engineer with 4+ years of enterprise
+                As a Senior Frontend Engineer with 5+ years of enterprise
                 experience, the projects displayed here represent only a curated
                 selection of my work. Many of my most complex and impactful
                 projects remain confidential due to:

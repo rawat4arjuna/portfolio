@@ -173,7 +173,7 @@ const MyStory = () => {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
               <div className="text-center p-6 bg-white rounded-xl shadow-sm border border-gray-100">
                 <div className="text-3xl font-bold text-purple-600 mb-2">
-                  4+
+                  5+
                 </div>
                 <div className="text-gray-700 font-medium">
                   Years Experience

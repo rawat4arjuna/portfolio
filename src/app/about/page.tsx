@@ -7,7 +7,7 @@ import { Brain, Rocket, Globe, Code } from "lucide-react";
 export const metadata: Metadata = {
   title: "About | Arjun Singh Rawat - Sr. Frontend Engineer & React.js Expert",
   description:
-    "Learn about Arjun Singh Rawat, Senior Frontend Engineer with 4+ years of expertise in React.js, Next.js, AI integration, workflow builders, and enterprise-grade applications. Based in Dehradun, Uttarakhand with international experience.",
+    "Learn about Arjun Singh Rawat, Senior Frontend Engineer with 5+ years of expertise in React.js, Next.js, AI integration, workflow builders, and enterprise-grade applications. Based in Dehradun, Uttarakhand with international experience.",
   keywords: [
     "Arjun Singh Rawat",
     "Senior Frontend Engineer",
@@ -29,13 +29,13 @@ export const metadata: Metadata = {
     images: "https://i.ibb.co/SwV3FCz9/image.png",
     title: "About | Arjun Singh Rawat - Sr. Frontend Engineer",
     description:
-      "Senior Frontend Engineer specializing in enterprise React.js applications, AI integration, and scalable web solutions. 4+ years of professional experience.",
+      "Senior Frontend Engineer specializing in enterprise React.js applications, AI integration, and scalable web solutions. 5+ years of professional experience.",
   },
   twitter: {
     images: "https://i.ibb.co/SwV3FCz9/image.png",
     title: "About | Arjun Singh Rawat - Sr. Frontend Engineer",
     description:
-      "Senior Frontend Engineer specializing in enterprise React.js applications, AI integration, and scalable web solutions. 4+ years of professional experience.",
+      "Senior Frontend Engineer specializing in enterprise React.js applications, AI integration, and scalable web solutions. 5+ years of professional experience.",
   },
   viewport: "width=device-width, initial-scale=1.0",
   themeColor: "#7c3aed",
@@ -61,7 +61,7 @@ const About = () => {
               Building enterprise-grade applications and scalable UI systems is
               my passion.{" "}
               <span className="text-purple-600 font-semibold">
-                With 4+ years of experience
+                With 5+ years of experience
               </span>{" "}
               across industries and continents, I architect solutions that
               bridge complex technical requirements with intuitive user
@@ -86,7 +86,7 @@ const About = () => {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               <div className="text-center">
                 <div className="text-3xl font-bold text-purple-300 mb-2">
-                  4+
+                  5+
                 </div>
                 <div className="text-gray-300">Years Experience</div>
               </div>

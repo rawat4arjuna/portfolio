@@ -11,7 +11,7 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Arjun Singh Rawat | Sr. Frontend Engineer & React.js Expert",
   description:
-    "Senior Frontend Engineer with 4+ years of expertise in React.js, Next.js, TypeScript, Redux, and modern web technologies. Specialized in building scalable enterprise applications, AI-integrated platforms, workflow builders, and component libraries. Experience with hardware integration, localization, and performance optimization.",
+    "Senior Frontend Engineer with 5+ years of expertise in React.js, Next.js, TypeScript, Redux, and modern web technologies. Specialized in building scalable enterprise applications, AI-integrated platforms, workflow builders, and component libraries. Experience with hardware integration, localization, and performance optimization.",
   keywords: [
     "Senior Frontend Engineer",
     "React.js Expert",
@@ -35,13 +35,13 @@ export const metadata: Metadata = {
     images: "https://i.ibb.co/JR9gd9Xk/image.png",
     title: "Arjun Singh Rawat | Sr. Frontend Engineer & React.js Expert",
     description:
-      "Senior Frontend Engineer specializing in enterprise-grade React.js applications, AI integration, workflow builders, and scalable component libraries. 4+ years of experience delivering high-performance web solutions.",
+      "Senior Frontend Engineer specializing in enterprise-grade React.js applications, AI integration, workflow builders, and scalable component libraries. 5+ years of experience delivering high-performance web solutions.",
   },
   twitter: {
     images: "https://i.ibb.co/JR9gd9Xk/image.png",
     title: "Arjun Singh Rawat | Sr. Frontend Engineer & React.js Expert",
     description:
-      "Senior Frontend Engineer specializing in enterprise-grade React.js applications, AI integration, workflow builders, and scalable component libraries. 4+ years of experience delivering high-performance web solutions.",
+      "Senior Frontend Engineer specializing in enterprise-grade React.js applications, AI integration, workflow builders, and scalable component libraries. 5+ years of experience delivering high-performance web solutions.",
   },
   viewport: "width=device-width, initial-scale=1.0",
   themeColor: "#7c3aed",
@@ -83,7 +83,7 @@ const Home = () => {
                 <p className="text-gray-700 text-lg lg:text-xl xl:text-2xl leading-relaxed max-w-2xl animate-fade-in-up delay-500">
                   {"I'm"} a Senior Frontend Engineer from{" "}
                   <span className="text-purple-600 font-semibold">India</span>{" "}
-                  with 4+ years of experience building{" "}
+                  with 5+ years of experience building{" "}
                   <span className="text-purple-600 font-semibold">
                     enterprise-grade applications and scalable UI systems
                   </span>
@@ -132,7 +132,7 @@ const Home = () => {
                 <div className="grid grid-cols-2 gap-4 text-sm">
                   <div className="flex items-center gap-2">
                     <div className="w-2 h-2 bg-purple-600 rounded-full"></div>
-                    <span className="text-gray-600">4+ Years Experience</span>
+                    <span className="text-gray-600">5+ Years Experience</span>
                   </div>
                   <div className="flex items-center gap-2">
                     <div className="w-2 h-2 bg-purple-600 rounded-full"></div>
