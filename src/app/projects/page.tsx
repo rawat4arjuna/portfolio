@@ -3,9 +3,9 @@ import { Metadata } from "next";
 import { Code, Sparkles, Zap, Shield, Lock } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Projects | Mayur - Frontend Developer",
+  title: "Projects | Arjun- Frontend Developer",
   description:
-    "Explore projects developed by Mayur, a frontend web developer specializing in React, Next.js, TypeScript, and modern web technologies.",
+    "Explore projects developed by Arjun, a frontend web developer specializing in React, Next.js, TypeScript, and modern web technologies.",
   keywords: [
     "Web Development Projects",
     "Frontend Projects",
@@ -20,15 +20,15 @@ export const metadata: Metadata = {
   robots: "index, follow",
   openGraph: {
     images: "https://i.ibb.co/C5QRJzQF/image.png",
-    title: "Projects | Mayur - Frontend Developer",
+    title: "Projects | Arjun- Frontend Developer",
     description:
-      "Explore projects developed by Mayur, a frontend web developer specializing in React, Next.js, TypeScript, and modern web technologies.",
+      "Explore projects developed by Arjun, a frontend web developer specializing in React, Next.js, TypeScript, and modern web technologies.",
   },
   twitter: {
     images: "https://i.ibb.co/C5QRJzQF/image.png",
-    title: "Projects | Mayur - Frontend Developer",
+    title: "Projects | Arjun- Frontend Developer",
     description:
-      "Explore projects developed by Mayur, a frontend web developer specializing in React, Next.js, TypeScript, and modern web technologies.",
+      "Explore projects developed by Arjun, a frontend web developer specializing in React, Next.js, TypeScript, and modern web technologies.",
   },
   viewport: "width=device-width, initial-scale=1.0",
   themeColor: "#000000",

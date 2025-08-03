@@ -19,8 +19,8 @@ export const projectData = [
       "Tailwind CSS",
     ],
     liveUrl:
-      "https://github.com/mayurnakum07/React-Native-Ecommerce-App?tab=readme-ov-file#luxecart---react-native-e-commerce-app",
-    githubUrl: "https://github.com/mayurnakum07/React-Native-Ecommerce-App",
+      "https://github.com/Arjunnakum07/React-Native-Ecommerce-App?tab=readme-ov-file#luxecart---react-native-e-commerce-app",
+    githubUrl: "https://github.com/Arjunnakum07/React-Native-Ecommerce-App",
     status: "Completed",
   },
   {

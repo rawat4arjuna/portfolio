@@ -9,7 +9,7 @@ import ProjectBanner from "@/components/ProjectBanner";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Mayur | Frontend Web Developer Portfolio",
+  title: "Arjun| Frontend Web Developer Portfolio",
   description:
     "Frontend Developer with expertise in React, Next.js, TypeScript, React Ionic, and React Native. Passionate about building dynamic, responsive web and mobile applications. Skilled in integrating Firebase to deliver scalable and efficient backend solutions.",
   keywords: [
@@ -27,13 +27,13 @@ export const metadata: Metadata = {
   robots: "index, follow",
   openGraph: {
     images: "https://i.ibb.co/JR9gd9Xk/image.png",
-    title: "Mayur | Frontend Web Developer Portfolio",
+    title: "Arjun| Frontend Web Developer Portfolio",
     description:
       "Frontend Developer with expertise in React, Next.js, TypeScript, React Ionic, and React Native. Passionate about building dynamic, responsive web and mobile applications. Skilled in integrating Firebase to deliver scalable and efficient backend solutions.",
   },
   twitter: {
     images: "https://i.ibb.co/JR9gd9Xk/image.png",
-    title: "Mayur | Frontend Web Developer Portfolio",
+    title: "Arjun| Frontend Web Developer Portfolio",
     description:
       "Frontend Developer with expertise in React, Next.js, TypeScript, React Ionic, and React Native. Passionate about building dynamic, responsive web and mobile applications. Skilled in integrating Firebase to deliver scalable and efficient backend solutions.",
   },
@@ -59,7 +59,7 @@ const Home = () => {
               {/* Greeting with Animation */}
               <div className="space-y-4">
                 <p className="text-2xl lg:text-3xl text-gray-800 font-medium animate-fade-in-up">
-                  Hey, {"I'm"} Mayur{" "}
+                  Hey, {"I'm"} Arjun{" "}
                   <span className="inline-block animate-bounce">👋🏻</span>
                 </p>
 
@@ -117,7 +117,7 @@ const Home = () => {
                 </Link>
 
                 <Link
-                  href="https://mayurnakum-portfolio.vercel.app/mayurResume.pdf"
+                  href="https://Arjunnakum-portfolio.vercel.app/ArjunResume.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="group px-8 py-4 bg-transparent border-2 border-gray-300 text-gray-700 rounded-xl hover:border-purple-600 hover:text-purple-600 font-semibold transition-all duration-300 transform  flex items-center gap-2"
@@ -134,7 +134,7 @@ const Home = () => {
               <div className="relative w-full h-full rounded-full border-4 border-purple-300 shadow-xl overflow-hidden">
                 <Image
                   src={profileImg}
-                  alt="Mayur Nakum - Frontend Developer"
+                  alt="Arjun Singh Rawat - Frontend Developer"
                   className="object-cover w-full h-full transform hover:scale-110 transition-transform duration-500"
                   priority
                   sizes="(max-width: 768px) 288px, (max-width: 1024px) 320px, 384px"

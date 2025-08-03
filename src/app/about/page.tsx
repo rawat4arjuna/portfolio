@@ -5,11 +5,11 @@ import { Metadata } from "next";
 import { User, Target, Heart, Award } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "About | Mayur - Frontend Developer",
+  title: "About | Arjun- Frontend Developer",
   description:
-    "Learn more about Mayur, a frontend web developer specializing in React, Next.js, TypeScript, and modern web technologies.",
+    "Learn more about Arjun, a frontend web developer specializing in React, Next.js, TypeScript, and modern web technologies.",
   keywords: [
-    "About Mayur",
+    "About Arjun",
     "Frontend Developer",
     "React Developer",
     "Next.js Developer",
@@ -22,15 +22,15 @@ export const metadata: Metadata = {
   robots: "index, follow",
   openGraph: {
     images: "https://i.ibb.co/SwV3FCz9/image.png",
-    title: "About | Mayur - Frontend Developer",
+    title: "About | Arjun- Frontend Developer",
     description:
-      "Learn more about Mayur, a frontend web developer specializing in React, Next.js, TypeScript, and modern web technologies.",
+      "Learn more about Arjun, a frontend web developer specializing in React, Next.js, TypeScript, and modern web technologies.",
   },
   twitter: {
     images: "https://i.ibb.co/SwV3FCz9/image.png",
-    title: "About | Mayur - Frontend Developer",
+    title: "About | Arjun- Frontend Developer",
     description:
-      "Learn more about Mayur, a frontend web developer specializing in React, Next.js, TypeScript, and modern web technologies.",
+      "Learn more about Arjun, a frontend web developer specializing in React, Next.js, TypeScript, and modern web technologies.",
   },
   viewport: "width=device-width, initial-scale=1.0",
   themeColor: "#000000",

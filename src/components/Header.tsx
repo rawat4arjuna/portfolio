@@ -39,7 +39,7 @@ const Header = () => {
         <section className="flex justify-between items-center">
           {/* Logo */}
           <Link href="/" className="text-black text-[20px] font-bold">
-            Mayur<span className="text-purple-600">.</span>
+            Arjun<span className="text-purple-600">.</span>
           </Link>
 
           {/* Menu Button for Mobile/Tablet */}

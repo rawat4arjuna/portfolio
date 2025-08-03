@@ -145,7 +145,7 @@ const MyProjects = () => {
             <Link
               target="_blank"
               rel="noopener noreferrer"
-              href="https://github.com/mayurnakum07"
+              href="https://github.com/Arjunnakum07"
             >
               <button className="px-8 py-3 bg-transparent border-2 border-purple-600 text-purple-600 rounded-lg hover:bg-purple-600 hover:text-white font-semibold transition-all duration-200">
                 View More Work

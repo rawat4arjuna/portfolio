@@ -6,31 +6,31 @@ import React from "react";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Contact | Mayur - Frontend Developer",
+  title: "Contact | Arjun- Frontend Developer",
   description:
-    "Get in touch with Mayur for web development projects, collaborations, and job opportunities.",
+    "Get in touch with Arjunfor web development projects, collaborations, and job opportunities.",
   keywords: [
-    "Contact Mayur",
+    "Contact Arjun",
     "Hire Frontend Developer",
     "React Developer Contact",
     "Next.js Developer Contact",
     "Web Developer Consultation",
     "Freelance Web Developer",
-    "Work with Mayur",
+    "Work with Arjun",
     "JavaScript Developer for Hire",
   ],
   robots: "index, follow",
   openGraph: {
     images: "https://i.ibb.co/20FD61NY/image.png",
-    title: "Contact | Mayur - Frontend Developer",
+    title: "Contact | Arjun- Frontend Developer",
     description:
-      "Get in touch with Mayur for web development projects, collaborations, and job opportunities.",
+      "Get in touch with Arjunfor web development projects, collaborations, and job opportunities.",
   },
   twitter: {
     images: "https://i.ibb.co/20FD61NY/image.png",
-    title: "Contact | Mayur - Frontend Developer",
+    title: "Contact | Arjun- Frontend Developer",
     description:
-      "Get in touch with Mayur for web development projects, collaborations, and job opportunities.",
+      "Get in touch with Arjunfor web development projects, collaborations, and job opportunities.",
   },
   viewport: "width=device-width, initial-scale=1.0",
   themeColor: "#000000",
@@ -96,7 +96,7 @@ const Contact = () => {
               <div className="space-y-4 animate-fade-in-up delay-700">
                 {/* Email */}
                 <Link
-                  href="mailto:mayurnakum07@gmail.com"
+                  href="mailto:Arjunnakum07@gmail.com"
                   className="group flex items-center gap-4 p-4 bg-white rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition-all duration-300 hover:border-purple-200"
                 >
                   <div className="p-3 bg-purple-100 rounded-lg group-hover:bg-purple-200 transition-colors duration-200">
@@ -105,7 +105,7 @@ const Contact = () => {
                   <div className="text-left">
                     <p className="text-sm text-gray-500 font-medium">Email</p>
                     <p className="text-gray-800 font-semibold">
-                      mayurnakum07@gmail.com
+                      Arjunnakum07@gmail.com
                     </p>
                   </div>
                 </Link>
@@ -162,7 +162,7 @@ const Contact = () => {
               <div className="relative w-full h-full rounded-full border-4 border-purple-300 shadow-xl overflow-hidden">
                 <Image
                   src={profileImg}
-                  alt="Mayur Nakum - Frontend Developer"
+                  alt="Arjun Singh Rawat - Frontend Developer"
                   className="object-cover w-full h-full transform hover:scale-110 transition-transform duration-500"
                   priority
                   sizes="(max-width: 768px) 288px, (max-width: 1024px) 320px, 384px"
@@ -194,14 +194,14 @@ const Contact = () => {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link
-                href="mailto:mayurnakum07@gmail.com"
+                href="mailto:Arjunnakum07@gmail.com"
                 className="group px-8 py-4 bg-purple-600 text-white rounded-xl hover:bg-purple-700 font-semibold transition-all duration-300 transform hover:scale-105 hover:shadow-lg flex items-center justify-center gap-2"
               >
                 <Send className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-200" />
                 Send Message
               </Link>
               <Link
-                href="https://mayurnakum-portfolio.vercel.app/mayurResume.pdf"
+                href="https://Arjunnakum-portfolio.vercel.app/ArjunResume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group px-8 py-4 bg-transparent border-2 border-purple-600 text-purple-600 rounded-xl hover:bg-purple-600 hover:text-white font-semibold transition-all duration-300 transform hover:scale-105 flex items-center gap-2"
