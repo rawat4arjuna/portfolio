@@ -1,10 +1,10 @@
-# Mayur Nakum - Frontend Developer Portfolio
+# Arjun Singh Rawat - Frontend Developer Portfolio
 
 A modern, responsive portfolio website built with Next.js, TypeScript, and Tailwind CSS. This project showcases my skills, projects, and experience as a frontend developer.
 
 ## 🚀 Live Demo
 
-[View Portfolio](https://mayurnakum-portfolio.vercel.app)
+[View Portfolio](https://arjunnakum-portfolio.vercel.app)
 
 ## 🛠️ Tech Stack
 
@@ -18,7 +18,7 @@ A modern, responsive portfolio website built with Next.js, TypeScript, and Tailw
 ## 📁 Project Structure
 
 ```
-mayur_portfolio/
+arjun_portfolio/
 ├── src/
 │   ├── app/
 │   │   ├── layout.tsx          # Global layout wrapper
@@ -53,7 +53,7 @@ mayur_portfolio/
 │   │   ├── meta/               # Meta images for social sharing
 │   │   └── projects/           # Project preview images
 │   ├── icon/                   # SVG icons
-│   ├── MayurResume.pdf         # Downloadable resume
+│   ├── ArjunResume.pdf         # Downloadable resume
 │   └── profile.jpg             # Profile image
 ├── package.json
 ├── tailwind.config.ts
@@ -164,8 +164,8 @@ mayur_portfolio/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/mayur_portfolio.git
-   cd mayur_portfolio
+   git clone https://github.com/yourusername/arjun_portfolio.git
+   cd arjun_portfolio
    ```
 
 2. **Install dependencies**
@@ -207,7 +207,7 @@ Edit `src/data/projectData.ts`:
 
 ### Updating Personal Information
 - **Profile Image:** Replace `public/profile.jpg`
-- **Resume:** Replace `public/MayurResume.pdf`
+- **Resume:** Replace `public/ArjunResume.pdf`
 - **Contact Info:** Update in `src/app/contact/page.tsx`
 - **Social Links:** Edit `src/components/SocialsMenu.tsx`
 
@@ -278,11 +278,11 @@ NEXT_PUBLIC_SITE_URL=http://localhost:3000
 This project is open source and available under the [MIT License](LICENSE).
 
 ## 📞 Contact
-- **Email:** mayurnakum07@gmail.com
-- **LinkedIn:** [Mayur Nakum](https://linkedin.com/in/mayur-nakum-178777250)
-- **GitHub:** [mayurnakum07](https://github.com/mayurnakum07)
-- **Instagram:** [@mr_mayur_nakum](https://instagram.com/mr_mayur_nakum)
+- **Email:** arjunnakum07@gmail.com
+- **LinkedIn:** [Arjun Nakum](https://linkedin.com/in/arjun-nakum-178777250)
+- **GitHub:** [arjunnakum07](https://github.com/arjunnakum07)
+- **Instagram:** [@mr_arjun_nakum](https://instagram.com/mr_arjun_nakum)
 
 ---
 
-**Made with 💜 by Mayur Nakum**
+**Made with 💜 by Arjun Nakum**
